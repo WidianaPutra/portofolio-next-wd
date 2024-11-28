@@ -61,7 +61,7 @@ export default function Home() {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              "Hello! My name is I Putu Surya Widiana Putra. I am a student
+              Hello! My name is I Putu Surya Widiana Putra. I am a student
               majoring in Software Engineering (RPL) at school. I am also a web
               developer with a passion for creating and improving websites. I
               love learning new things and building useful digital solutions.

@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from "react";
 import typed from "typed.js";
 import aos from "aos";

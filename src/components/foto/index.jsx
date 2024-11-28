@@ -1,3 +1,5 @@
+"use client";
+
 import { galleryData } from "@/data/gallery";
 import Image from "next/image";
 import aos from "aos";

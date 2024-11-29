@@ -22,9 +22,9 @@ export default function Navbar() {
     <>
       <nav
         className="w-full p-5 shadow-2xl fixed z-50 bg-white"
-        // data-aos="fade-down"
-        // data-aos-duration="1400"
-        // data-aos-delay="100"
+        data-aos="fade-down"
+        data-aos-duration="1400"
+        data-aos-delay="100"
       >
         {/* desktop */}
         <div className="flex w-full justify-between items-center">

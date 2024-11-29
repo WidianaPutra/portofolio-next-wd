@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import { icons } from "@/assets/assets";
 import { navData } from "@/data/navbar";
@@ -6,22 +7,24 @@ import { navData } from "@/data/navbar";
 import $ from "jquery";
 import Link from "next/link";
 import Image from "next/image";
-import aos from "aos";
+import AOS from "aos";
 
 import "aos/dist/aos.css";
 
-aos.init();
-
 export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <>
       <nav
         className="w-full p-5 shadow-2xl fixed z-50 bg-white"
-        data-aos="fade-down"
-        data-aos-duration="1400"
-        data-aos-delay="100"
+        // data-aos="fade-down"
+        // data-aos-duration="1400"
+        // data-aos-delay="100"
       >
         {/* desktop */}
         <div className="flex w-full justify-between items-center">

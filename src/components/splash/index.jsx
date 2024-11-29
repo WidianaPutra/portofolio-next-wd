@@ -1,12 +1,9 @@
 "use client";
 import { useEffect } from "react";
 import typed from "typed.js";
-import aos from "aos";
-import gsap from "gsap";
+import AOS from "aos";
 
 import "aos/dist/aos.css";
-
-aos.init();
 
 export default function Splash() {
   useEffect(() => {
@@ -14,15 +11,9 @@ export default function Splash() {
       strings: ["Welcome....", "Widiana Putra.", ""],
       typeSpeed: 70,
       showCursor: false,
-      // backDelay: 1000,
       looping: true,
     });
-    gsap.to(".container-splash", {
-      delay: 1,
-      duration: 500,
-      // display: "none",
-      backgroundColor: "red",
-    });
+    AOS.init();
   }, []);
   return (
     <div className="container-splash w-full h-screen flex justify-center items-center flex-col">

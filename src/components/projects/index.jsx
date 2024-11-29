@@ -1,14 +1,16 @@
 "use client";
+import { useEffect } from "react";
 import { projectData } from "@/data/project";
 
 import Image from "next/image";
-import aos from "aos";
+import AOS from "aos";
 
 import "aos/dist/aos.css";
 
-aos.init();
-
 export default function Project() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div id="project" className="w-full">
       <h1 className="text-center pb-5 text-3xl font-bold">My Project</h1>

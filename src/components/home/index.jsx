@@ -10,12 +10,7 @@ import $ from "jquery";
 
 import "aos/dist/aos.css";
 
-AOS.init({
-  once: true,
-});
-
 export default function Home() {
-  // use effect to load animation
   useEffect(() => {
     new typed(".myName", {
       strings: [" Widiana Putra."],
@@ -35,6 +30,10 @@ export default function Home() {
     setTimeout(() => {
       $(".img1").removeClass("scale-[10%]");
     }, 150);
+
+    AOS.init({
+      once: true,
+    });
   });
 
   return (

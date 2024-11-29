@@ -1,14 +1,15 @@
 "use client";
-
+import { useEffect } from "react";
 import { galleryData } from "@/data/gallery";
 import Image from "next/image";
-import aos from "aos";
+import AOS from "aos";
 
 import "aos/dist/aos.css";
 
-aos.init();
-
 export default function GalleryFoto() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="" id="foto">
       <h1 className="text-center text-[40px] font-bold my-4 cursor-pointer">

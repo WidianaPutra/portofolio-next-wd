@@ -1,10 +1,18 @@
 // icons
 import humberger from "@/assets/icons/menu.svg";
 import close from "@/assets/icons/close.svg";
+import github from "@/assets/icons/github.svg";
+import discord from "@/assets/icons/discord.svg";
+import instagram from "@/assets/icons/instagram.svg";
+import left from "@/assets/icons/leftArrow.svg";
 
 const icons = {
   humberger,
   close,
+  github,
+  discord,
+  instagram,
+  left,
 };
 
 // images

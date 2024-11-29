@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar";
 import Splash from "@/components/splash";
 import Project from "@/components/projects";
 import GalleryFoto from "@/components/foto";
+import Footer from "@/components/footer";
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -27,6 +28,7 @@ export default function App() {
           <Home />
           <Project />
           <GalleryFoto />
+          <Footer />
         </div>
       )}
     </div>

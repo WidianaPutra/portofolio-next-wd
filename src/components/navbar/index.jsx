@@ -45,9 +45,11 @@ export default function Navbar() {
           {/* contact */}
           <div>
             <div className="hidden sm:flex">
-              <button className="bg-black text-white w-[100px] h-[40px] rounded-md font-bold">
-                Contact
-              </button>
+              <Link href={"/contact"}>
+                <button className="bg-black text-white w-[100px] h-[40px] rounded-md font-bold">
+                  Contact
+                </button>
+              </Link>
             </div>
             {/* humberger menu */}
             <Image
@@ -76,6 +78,12 @@ export default function Navbar() {
               {el.title}
             </Link>
           ))}
+          <Link
+            href={"/contact"}
+            className="font-bold text-[19px] hover:scale-110 text-center py-2"
+          >
+            Contact
+          </Link>
         </div>
       </nav>
     </>

@@ -27,11 +27,13 @@ const images = {
 import project_kelas from "@/assets/images/kelas.png";
 import project_anime from "@/assets/images/machol.png";
 import project_coffee from "@/assets/images/coffee.png";
+import project_adminLTE from "@/assets/images/adminLTE.png";
 
 const project = {
   kelas: project_kelas,
   anime: project_anime,
   coffee: project_coffee,
+  adminLTE: project_adminLTE,
 };
 
 // gallery

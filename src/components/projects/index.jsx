@@ -19,7 +19,7 @@ export default function Project() {
       <h1 className="text-center pb-5 text-3xl font-bold">My Project</h1>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 p-4 gap-5">
         {projectData.map((el, i) => (
-          <Link href={el.link}>
+          <Link href={el.link} key={i}>
             <div
               key={i}
               className="w-full p-4 shadow-2xl rounded-md hover:scale-[102%] transition-all group"
@@ -29,6 +29,7 @@ export default function Project() {
                 alt=".."
                 className="w-full rounded-md grayscale group-hover:grayscale-0"
               />
+              <p className="pt-2 text-2xl">{el.title}</p>
               <div className="flex gap-3 mt-3 flex-wrap">
                 {el.tech.map((el, i) => (
                   <p

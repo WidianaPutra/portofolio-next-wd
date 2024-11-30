@@ -20,7 +20,7 @@ export default function Contact() {
         {/* contain 1 */}
         <div className="md:w-[50%]">
           <Image
-            src={images.me}
+            src={images.meAyaka}
             alt="..."
             className="grayscale md:h-screen h-[200px] w-auto object-cover rounded-full md:rounded-none hover:grayscale-0"
           />

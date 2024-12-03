@@ -30,7 +30,7 @@ export const projectData = [
       "PHP",
       "Bootsrap",
       "SweetAlert2",
-      "Amin LTE tamplate",
+      "Admin LTE tamplate",
     ],
     link: "/",
   },

@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import { projectData } from "@/data/project";
-import { useRouter } from "next/navigation";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +9,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Project() {
-  const router = useRouter();
   useEffect(() => {
     AOS.init();
   }, []);

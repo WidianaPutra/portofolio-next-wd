@@ -57,4 +57,13 @@ const gallery = {
   gallery8,
 };
 
-export { icons, images, project, gallery };
+// serti
+
+import certi1 from "@/assets/images/certi1.png";
+import certi2 from "@/assets/images/certi2.jpg";
+const Certificate = {
+  certi1,
+  certi2,
+};
+
+export { icons, images, project, gallery, Certificate };

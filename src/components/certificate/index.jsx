@@ -13,7 +13,7 @@ export default function Certificate() {
   });
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center" id="certificate">
       <h1 className="welcome-certificate text-center text-3xl my-5 font-bold">
         My Certificate
       </h1>

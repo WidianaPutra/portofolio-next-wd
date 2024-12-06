@@ -10,7 +10,7 @@ export const projectData = [
   {
     title: "Machol Anime",
     img: project.anime,
-    tech: ["HTML", "CSS", "Jquery", "Javascript"],
+    tech: ["HTML", "CSS", "Jquery", "Javascript", "Public API"],
     link: "https://widianaputra.github.io/Machol1704/",
   },
   {
@@ -31,6 +31,7 @@ export const projectData = [
       "Bootsrap",
       "SweetAlert2",
       "Admin LTE tamplate",
+      "MySql",
     ],
     link: "/",
   },

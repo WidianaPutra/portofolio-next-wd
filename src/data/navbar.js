@@ -8,6 +8,10 @@ export const navData = [
     url: "/#project",
   },
   {
+    title: "Certificate",
+    url: "/#certificate",
+  },
+  {
     title: "Foto",
     url: "/#foto",
   },

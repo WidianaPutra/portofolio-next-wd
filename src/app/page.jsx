@@ -9,29 +9,28 @@ import Footer from "@/components/footer";
 import Certificate from "@/components/certificate";
 
 export default function App() {
-  const [showSplash, setShowSplash] = useState(true);
+  const [showSplash, setShowSplash] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setShowSplash(false);
+      setShowSplash(true);
     }, 4000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div>
-      {showSplash ? (
-        <Splash />
-      ) : (
-        <div className="bg-gray-100">
+    <div className="bg-gray-100">
+      <Splash />
+      {showSplash && (
+        <>
           <Navbar />
           <Home />
           <Project />
           <Certificate />
           <GalleryFoto />
           <Footer />
-        </div>
+        </>
       )}
     </div>
   );
